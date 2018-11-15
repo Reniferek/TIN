@@ -1,8 +1,8 @@
-function Student(first, last, index, grades) {
+function Student(first, last, index, gradesArr) {
     this.firstName = first;
     this.lastName = last;
     this.index = index;
-    this.grades = [];
+    this.grades = gradesArr;
 
 this.showStudent = function() {
         var sum = 0;

@@ -1,0 +1,52 @@
+<html>
+<style>
+table {
+    width: 600px;
+    border-collapse: collapse;
+}
+td,
+th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: rgb(245, 245, 245);
+}
+</style>
+<head>
+    <script src="6d.js"></script>
+    <title> form validation </title>
+</head>
+<body>
+    <form>
+        Column #1<br>
+        <input id="field1" type="text" name="field1" value="" maxlength="10">
+        <br><br>
+        Column #2<br>
+        <input id="field2" type="text" name="field2" value="" maxlength="10">
+        <br><br>
+        Column #3<br>
+        <input id="field3" type="text" name="field3" value="" maxlength="10">
+        <br>
+    </form>
+    <button onclick="insertFunction()">Insert</button>
+    <br><br>
+    <table id = "table1">
+            <col width="200">
+            <col width="200">
+            <col width="200">
+        <tr>
+            <th>Column #1</th>
+            <th>Column #2</th>
+            <th>Column #3</th>
+        </tr>
+        <tr>
+            <td>Kino</td>
+            <td>Der</td>
+            <td>Toten</td>
+        </tr>
+    </table>
+    <br>
+</body>
+</html>

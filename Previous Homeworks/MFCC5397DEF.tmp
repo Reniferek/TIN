@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+body {
+    font-family: sans-serif;
+    font-size: 120%;
+}
+
+table, th, td {
+    color: solid indianred;
+    border: 1px solid pink;
+    border-collapse: collapse;
+}
+
+th, td {
+   padding: 5px;
+}
+
+table tr:nth-child(even) {
+    background-color: solid darkseagreen;
+}
+table tr:nth-child(odd) {
+    background-color: rgb(240,240,240);
+}
+
+p {
+    color: indigo;
+    border: 1px solid Green;
+    background-color: rgb(240,240,240);
+    padding: 30px;
+}
+
+a:hover, a:visited, a:link, a:active {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: square;
+}
